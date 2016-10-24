@@ -8,8 +8,9 @@ For this project, you need to use Cocoapods.
 #Cocoapod install
 platform :ios, '10.0'
 
-target 'MusicStreaming' do
-    pod 'Reachability'
+```java
+target 'MusicStreaming' do 
+    pod 'Reachability' 
     pod 'UMengAnalytics'
     pod 'AFNetworking'
     pod 'MJExtension'
@@ -22,4 +23,6 @@ target 'MusicStreaming' do
     pod 'MJRefresh'
     pod 'Masonry'
     pod 'WebViewJavascriptBridge'
+
 end
+```
